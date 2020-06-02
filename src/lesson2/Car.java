@@ -28,8 +28,9 @@ public class Car {
         return carType;
     }
 
-    public void setCarType(CarType carType) {
+    public Car setCarType(CarType carType) {
         this.carType = carType;
+        return this;
     }
 
     public Engine getEngine() {
